@@ -122,13 +122,6 @@ git clone https://github.com/DisanduRodrigo/DrodXAuctionBid.git
 ![Bidding Page](screenshots/bidding.png)
 
 
----
-## 👥 Contributors
-
-* **Disandu Rodrigo** — Developer & Project Lead
-
-
-
 ## 📜 License
 
 This project is licensed under the **MIT License**. See `LICENSE.md` for details.

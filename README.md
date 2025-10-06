@@ -1,8 +1,5 @@
 # DrodXAuctionBid 🧩
 
-**A Distributed Online Auction System built with Java EE**
-
----
 
 ## 🔍 Overview
 
@@ -14,6 +11,21 @@ The project follows a clean modular architecture:
 * **ejb:** EJB beans for business logic and state management.
 * **web:** HTML pages and servlets for the user interface.
 * **ear:** EAR packaging to bundle everything into a deployable unit.
+
+
+
+
+
+## 🎯 Project Overview
+
+DrodXAuctionBid is a Java EE-based **Distributed Online Auction System** built using **EJB** and **JMS**. It simulates high-concurrency auction environments and provides:
+
+* Real-time product views
+* Manual and auto-bid functionalities
+* Live bid updates via WebSocket
+* Centralized in-memory data storage for users and products
+
+The system uses **Message-Driven Beans** for asynchronous processing and **Singleton Session Beans** for centralized product and user management.
 
 ---
 
@@ -48,6 +60,16 @@ Core Module (DTOs, Static Repositories)
 
 JMS is used for real-time communication between bidding components, and WebSocket updates clients instantly.
 
+## 📂 Module Structure
+
+```
+DrodXAuctionBid/
+├── core/           # DTOs, Static data
+├── ejb/            # EJBs (Session Beans, Bid Manager, AutoBid Manager)
+├── web/            # HTML pages, Servlets, WebSocket endpoints
+├── ear/            # EAR module with application.xml
+└── README.md
+```
 ---
 
 ## ✨ Key Features
@@ -79,18 +101,6 @@ JMS is used for real-time communication between bidding components, and WebSocke
 
 ---
 
-## 📂 Module Structure
-
-```
-DrodXAuctionBid/
-├── core/           # DTOs, Static data
-├── ejb/            # EJBs (Session Beans, Bid Manager, AutoBid Manager)
-├── web/            # HTML pages, Servlets, WebSocket endpoints
-├── ear/            # EAR module with application.xml
-└── README.md
-```
-
----
 
 ## 🔧 How to Run
 
@@ -100,6 +110,19 @@ DrodXAuctionBid/
 4. Access via browser: `http://localhost:8080/DrodXAuctionBid-web`
 
 ---
+
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/DisanduRodrigo/DrodXAuctionBid.git
+```
+
+Deploy the EAR project on **Payara Server**.
+Access the system via: `http://localhost:8080/DrodXAuctionBid-web`
+
 
 ## 🖼️ Screenshots
 
@@ -119,34 +142,18 @@ DrodXAuctionBid/
 
 ![Bidding Page](screenshots/bidding.png)
 
----
-
-## 🎯 Project Overview
-
-DrodXAuctionBid is a Java EE-based **Distributed Online Auction System** built using **EJB** and **JMS**. It simulates high-concurrency auction environments and provides:
-
-* Real-time product views
-* Manual and auto-bid functionalities
-* Live bid updates via WebSocket
-* Centralized in-memory data storage for users and products
-
-The system uses **Message-Driven Beans** for asynchronous processing and **Singleton Session Beans** for centralized product and user management.
 
 ---
+## 👥 Contributors
 
-## 🚀 Getting Started
+* **Disandu Rodrigo** — Developer & Project Lead
 
-Clone the repository:
 
-```bash
-git clone https://github.com/DisanduRodrigo/DrodXAuctionBid.git
-```
 
-Deploy the EAR project on **Payara Server**.
-Access the system via: `http://localhost:8080/DrodXAuctionBid-web`
+## 📜 License
+
+This project is licensed under the **MIT License**. See `LICENSE.md` for details.
 
 ---
 
-## License
-
-This project is licensed under the **MIT License**.
+⭐ *If you found this project helpful, please give it a star on GitHub!*

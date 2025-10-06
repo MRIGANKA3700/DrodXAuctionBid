@@ -1,24 +1,9 @@
 # DrodXAuctionBid 🧩
 
-
-## 🔍 Overview
+## 🎯 Project Overview
 
 **DrodXAuctionBid** is a scalable, modular, and database-free Distributed Online Auction System developed using **Java EE technologies** such as **EJB, JMS, and WebSocket (Payara)**. It simulates real-time bidding scenarios with support for **manual and auto-bidding**, designed for academic, enterprise learning, and demonstration purposes.
 
-The project follows a clean modular architecture:
-
-* **core:** DTOs, utility classes, and shared logic.
-* **ejb:** EJB beans for business logic and state management.
-* **web:** HTML pages and servlets for the user interface.
-* **ear:** EAR packaging to bundle everything into a deployable unit.
-
-
-
-
-
-## 🎯 Project Overview
-
-DrodXAuctionBid is a Java EE-based **Distributed Online Auction System** built using **EJB** and **JMS**. It simulates high-concurrency auction environments and provides:
 
 * Real-time product views
 * Manual and auto-bid functionalities
@@ -104,24 +89,18 @@ DrodXAuctionBid/
 
 ## 🔧 How to Run
 
-1. Use **JDK 11**.
-2. Import as a Maven multi-module project in **IntelliJ** or **Eclipse**.
-3. Deploy the **EAR module** to **Payara Server**.
-4. Access via browser: `http://localhost:8080/DrodXAuctionBid-web`
-
----
-
-
-## 🚀 Getting Started
-
-Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/DisanduRodrigo/DrodXAuctionBid.git
 ```
 
-Deploy the EAR project on **Payara Server**.
-Access the system via: `http://localhost:8080/DrodXAuctionBid-web`
+2. Use **JDK 11**.
+3. Import as a Maven multi-module project in **IntelliJ** or **Eclipse**.
+4. Deploy the **EAR module** to **Payara Server**.
+5. Access via browser: `http://localhost:8080/DrodXAuctionBid-web`
+
+---
 
 
 ## 🖼️ Screenshots

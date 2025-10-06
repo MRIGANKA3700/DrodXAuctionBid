@@ -1,9 +1,8 @@
-# 🧩 DrodXAuctionBid 
-
-## 🎯 Project Overview
+# 🧩 DrodXAuctionBid - Distributed Online Auction System
 
 **DrodXAuctionBid** is a scalable, modular, and database-free Distributed Online Auction System developed using **Java EE technologies** such as **EJB, JMS, and WebSocket (Payara)**. It simulates real-time bidding scenarios with support for **manual and auto-bidding**, designed for academic, enterprise learning, and demonstration purposes.
 
+## 🎯 Project Overview
 
 * Real-time product views
 * Manual and auto-bid functionalities

